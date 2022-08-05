@@ -9,6 +9,13 @@ class WelcomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("data"),
       ),
+      body: SafeArea(
+        child: Column(
+          children: const [
+            Text("data"),
+          ],
+        ),
+      ),
     );
   }
 }
